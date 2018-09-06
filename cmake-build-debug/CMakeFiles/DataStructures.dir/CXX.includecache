@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jonathan/CLionProjects/DataStructures/Search/BinarySearch.cpp
+iostream
+/home/jonathan/CLionProjects/DataStructures/Search/iostream
+BinarySearch.h
+/home/jonathan/CLionProjects/DataStructures/Search/BinarySearch.h
+
+/home/jonathan/CLionProjects/DataStructures/Search/BinarySearch.h
+
+/home/jonathan/CLionProjects/DataStructures/Search/SecuencialSearch.cpp
+iostream
+-
+SecuencialSearch.h
+/home/jonathan/CLionProjects/DataStructures/Search/SecuencialSearch.h
+
+/home/jonathan/CLionProjects/DataStructures/Search/SecuencialSearch.h
+
+/home/jonathan/CLionProjects/DataStructures/main.cpp
+iostream
+-
+Search/SecuencialSearch.h
+/home/jonathan/CLionProjects/DataStructures/Search/SecuencialSearch.h
+Search/BinarySearch.h
+/home/jonathan/CLionProjects/DataStructures/Search/BinarySearch.h
+
