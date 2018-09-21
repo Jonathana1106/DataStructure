@@ -1,30 +1,36 @@
 #include <iostream>
 #include "Search/SecuencialSearch.h"
 #include "Search/BinarySearch.h"
+#include "Sort/QuickSort.h"
+#include "Sort/InsertionSort.h"
+#include "Sort/Bubble.h"
+#include "Sort/Print.h"
+
 using namespace std;
 
 int main() {
-
 
     int structure;
 
     cout << "Para utilizar la estructura deseada ingrese su numero. \n";
     cout << "1.Secuencial Search. \n";
     cout << "2.Binary Search. \n";
-    cout << "3.Busqueda 3. \n";
-    cout << "4.Busqueda 4. \n";
-    cout << "5.Busqueda 5. \n";
+    cout << "3.QuickSort. \n";
+    cout << "4.InsertionSort. \n";
+    cout << "5.BubbleSort. \n";
+    cout << "6.Shell. \n";
 
     cin >> structure;
 
-    while (structure != 1 && structure != 2 && structure != 3 && structure != 4 && structure != 5) {
+    while (structure != 1 && structure != 2 && structure != 3 && structure != 4 && structure != 5 && structure != 6) {
 
         cout << "Ingrese el numero de la estructura que desea probar nuevamente. \n";
         cout << "1.Secuencial Search. \n";
         cout << "2.Binary Search. \n";
-        cout << "3.Busqueda 3. \n";
-        cout << "4.Busqueda 4. \n";
-        cout << "5.Busqueda 5. \n";
+        cout << "3.QuickSort. \n";
+        cout << "4.InsertionSort. \n";
+        cout << "5.BubbleSort. \n";
+        cout << "6.Shell. \n";
         cin >> structure;
     }
 
@@ -39,7 +45,7 @@ int main() {
             cout << "Ingrese el tamano que desea para la lista 5-10: << ";
             cin >> listSize;
 
-            while(listSize < 5 || listSize > 12) {
+            while (listSize < 5 || listSize > 12) {
                 cout << "Ingrese el tamano que desea para la lista 5-10: << ";
                 cin >> listSize;
             }
@@ -47,7 +53,7 @@ int main() {
             int list[listSize];
             int temp;
 
-            for(int i = 0; i < listSize; i++) {
+            for (int i = 0; i < listSize; i++) {
                 cout << "Ingrese un numero: << ";
                 cin >> temp;
                 list[i] = temp;
@@ -77,7 +83,6 @@ int main() {
                 cout << " ";
             }
              */
-
             break;
         }
         case 2: {
@@ -121,24 +126,43 @@ int main() {
                 cout << " ";
             }
              */
-
             break;
         }
         case 3: {
-            cout << "Busqueda 3. \n";
+            cout << "QuickSort \n";
+
+            int arr[] = {10, 7, 8, 9, 1, 5};
+            int n = sizeof(arr) / sizeof(arr[0]);
+            quickSort(arr, 0, n - 1);
+            printf("Sorted array: \n");
+            printList(arr, n);
 
             break;
         }
         case 4: {
-            cout << "Busqueda 4. \n";
+            cout << "InsertionSort. \n";
+
+            int arr[] = {12, 11, 13, 5, 6};
+            int n = sizeof(arr) / sizeof(arr[0]);
+            insertionSort(arr, n);
+            printList(arr, n);
 
             break;
         }
         case 5: {
-            cout << "Busqueda 5. \n";
+            cout << "BubbleSort. \n";
+
+            int array[] = {0, 9, 8, 7, 6, 5, 4, 3, 2, 1};
+            int n = sizeof(array) / sizeof(array[0]);
+            bubbleSort(array, n);
+            printList(array, n);
+
+            break;
+        }
+        case 6: {
+            cout << "Shell \n";
             break;
         }
     }
-
     return 0;
 }

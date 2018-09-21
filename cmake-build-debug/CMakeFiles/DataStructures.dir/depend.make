@@ -9,5 +9,11 @@ CMakeFiles/DataStructures.dir/Search/SecuencialSearch.cpp.o: ../Search/Secuencia
 
 CMakeFiles/DataStructures.dir/main.cpp.o: ../Search/BinarySearch.h
 CMakeFiles/DataStructures.dir/main.cpp.o: ../Search/SecuencialSearch.h
+CMakeFiles/DataStructures.dir/main.cpp.o: ../Sort/Bubble.h
+CMakeFiles/DataStructures.dir/main.cpp.o: ../Sort/InsertionSort.h
+CMakeFiles/DataStructures.dir/main.cpp.o: ../Sort/Partition.h
+CMakeFiles/DataStructures.dir/main.cpp.o: ../Sort/Print.h
+CMakeFiles/DataStructures.dir/main.cpp.o: ../Sort/QuickSort.h
+CMakeFiles/DataStructures.dir/main.cpp.o: ../Sort/Swap.h
 CMakeFiles/DataStructures.dir/main.cpp.o: ../main.cpp
 

@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/38/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/jonathan/CLion-2018.2.3/clion-2018.2.3/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/38/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/jonathan/CLion-2018.2.3/clion-2018.2.3/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jonathan/CLionProjects/DataStructures
+CMAKE_SOURCE_DIR = /home/jonathan/CLionProjects/DataStructure
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jonathan/CLionProjects/DataStructures/cmake-build-debug
+CMAKE_BINARY_DIR = /home/jonathan/CLionProjects/DataStructure/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/DataStructures.dir/depend.make
@@ -59,42 +59,42 @@ include CMakeFiles/DataStructures.dir/flags.make
 
 CMakeFiles/DataStructures.dir/main.cpp.o: CMakeFiles/DataStructures.dir/flags.make
 CMakeFiles/DataStructures.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jonathan/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DataStructures.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DataStructures.dir/main.cpp.o -c /home/jonathan/CLionProjects/DataStructures/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jonathan/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DataStructures.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DataStructures.dir/main.cpp.o -c /home/jonathan/CLionProjects/DataStructure/main.cpp
 
 CMakeFiles/DataStructures.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructures.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jonathan/CLionProjects/DataStructures/main.cpp > CMakeFiles/DataStructures.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jonathan/CLionProjects/DataStructure/main.cpp > CMakeFiles/DataStructures.dir/main.cpp.i
 
 CMakeFiles/DataStructures.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructures.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jonathan/CLionProjects/DataStructures/main.cpp -o CMakeFiles/DataStructures.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jonathan/CLionProjects/DataStructure/main.cpp -o CMakeFiles/DataStructures.dir/main.cpp.s
 
 CMakeFiles/DataStructures.dir/Search/SecuencialSearch.cpp.o: CMakeFiles/DataStructures.dir/flags.make
 CMakeFiles/DataStructures.dir/Search/SecuencialSearch.cpp.o: ../Search/SecuencialSearch.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jonathan/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DataStructures.dir/Search/SecuencialSearch.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DataStructures.dir/Search/SecuencialSearch.cpp.o -c /home/jonathan/CLionProjects/DataStructures/Search/SecuencialSearch.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jonathan/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DataStructures.dir/Search/SecuencialSearch.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DataStructures.dir/Search/SecuencialSearch.cpp.o -c /home/jonathan/CLionProjects/DataStructure/Search/SecuencialSearch.cpp
 
 CMakeFiles/DataStructures.dir/Search/SecuencialSearch.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructures.dir/Search/SecuencialSearch.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jonathan/CLionProjects/DataStructures/Search/SecuencialSearch.cpp > CMakeFiles/DataStructures.dir/Search/SecuencialSearch.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jonathan/CLionProjects/DataStructure/Search/SecuencialSearch.cpp > CMakeFiles/DataStructures.dir/Search/SecuencialSearch.cpp.i
 
 CMakeFiles/DataStructures.dir/Search/SecuencialSearch.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructures.dir/Search/SecuencialSearch.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jonathan/CLionProjects/DataStructures/Search/SecuencialSearch.cpp -o CMakeFiles/DataStructures.dir/Search/SecuencialSearch.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jonathan/CLionProjects/DataStructure/Search/SecuencialSearch.cpp -o CMakeFiles/DataStructures.dir/Search/SecuencialSearch.cpp.s
 
 CMakeFiles/DataStructures.dir/Search/BinarySearch.cpp.o: CMakeFiles/DataStructures.dir/flags.make
 CMakeFiles/DataStructures.dir/Search/BinarySearch.cpp.o: ../Search/BinarySearch.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jonathan/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/DataStructures.dir/Search/BinarySearch.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DataStructures.dir/Search/BinarySearch.cpp.o -c /home/jonathan/CLionProjects/DataStructures/Search/BinarySearch.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jonathan/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/DataStructures.dir/Search/BinarySearch.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DataStructures.dir/Search/BinarySearch.cpp.o -c /home/jonathan/CLionProjects/DataStructure/Search/BinarySearch.cpp
 
 CMakeFiles/DataStructures.dir/Search/BinarySearch.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructures.dir/Search/BinarySearch.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jonathan/CLionProjects/DataStructures/Search/BinarySearch.cpp > CMakeFiles/DataStructures.dir/Search/BinarySearch.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jonathan/CLionProjects/DataStructure/Search/BinarySearch.cpp > CMakeFiles/DataStructures.dir/Search/BinarySearch.cpp.i
 
 CMakeFiles/DataStructures.dir/Search/BinarySearch.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructures.dir/Search/BinarySearch.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jonathan/CLionProjects/DataStructures/Search/BinarySearch.cpp -o CMakeFiles/DataStructures.dir/Search/BinarySearch.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jonathan/CLionProjects/DataStructure/Search/BinarySearch.cpp -o CMakeFiles/DataStructures.dir/Search/BinarySearch.cpp.s
 
 # Object files for target DataStructures
 DataStructures_OBJECTS = \
@@ -110,7 +110,7 @@ DataStructures: CMakeFiles/DataStructures.dir/Search/SecuencialSearch.cpp.o
 DataStructures: CMakeFiles/DataStructures.dir/Search/BinarySearch.cpp.o
 DataStructures: CMakeFiles/DataStructures.dir/build.make
 DataStructures: CMakeFiles/DataStructures.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jonathan/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable DataStructures"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jonathan/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable DataStructures"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DataStructures.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -123,6 +123,6 @@ CMakeFiles/DataStructures.dir/clean:
 .PHONY : CMakeFiles/DataStructures.dir/clean
 
 CMakeFiles/DataStructures.dir/depend:
-	cd /home/jonathan/CLionProjects/DataStructures/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jonathan/CLionProjects/DataStructures /home/jonathan/CLionProjects/DataStructures /home/jonathan/CLionProjects/DataStructures/cmake-build-debug /home/jonathan/CLionProjects/DataStructures/cmake-build-debug /home/jonathan/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles/DataStructures.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jonathan/CLionProjects/DataStructure/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jonathan/CLionProjects/DataStructure /home/jonathan/CLionProjects/DataStructure /home/jonathan/CLionProjects/DataStructure/cmake-build-debug /home/jonathan/CLionProjects/DataStructure/cmake-build-debug /home/jonathan/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles/DataStructures.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/DataStructures.dir/depend
 
